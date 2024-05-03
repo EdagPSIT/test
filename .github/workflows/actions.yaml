@@ -14,4 +14,4 @@ jobs:
       run: echo ${{ secrets.MY_SECRET }}
 
     - name: Print Variable
-      run: echo ${{ env.MY_VARIABLE }}
+      run: echo ${{ vars.MY_VARIABLE }}
